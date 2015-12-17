@@ -7,5 +7,8 @@ public class CarTest {
        c.addGas(10);
        c.drive(10);
        System.out.println(c.getGasInTank());
+       c.addGas(10);
+       c.drive(10);
+       System.out.println(c.getGasInTank());
     }
 }
