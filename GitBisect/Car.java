@@ -8,6 +8,7 @@ public class Car
     private double milesPerGallon;
     private String brand;
     private String model;
+    private boolean hasAC;
    
 
     /**
@@ -20,6 +21,7 @@ public class Car
         this.milesPerGallon = milesPerGallon;
         this.brand = brand;
         this.model = model;
+        this.hasAC = false;
     }
 
   
@@ -32,6 +34,16 @@ public class Car
     {
         gasInTank = 0;
         gasInTank = gasInTank + amount;
+    }
+
+    /**
+      Sets whether the car has an AC
+      @param whether car has an AC
+    */
+   
+    public boolean setHasAC(boolean hasAC)
+    {
+        this.hasAC = hasAC;
     }
 
     /**
