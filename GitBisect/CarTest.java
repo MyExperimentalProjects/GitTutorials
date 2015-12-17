@@ -6,9 +6,9 @@ public class CarTest {
        System.out.println(c.getGasInTank());
        c.addGas(10);
        c.drive(10);
-       System.out.println(c.getGasInTank());
+       System.out.println("Expected : 9.0 | Actual : " + c.getGasInTank());
        c.addGas(10);
        c.drive(10);
-       System.out.println(c.getGasInTank());
+       System.out.println("Expected : 18.0 | Actual : " + c.getGasInTank());
     }
 }
