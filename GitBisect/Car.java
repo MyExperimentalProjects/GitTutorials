@@ -30,6 +30,7 @@ public class Car
    
     public void addGas(double amount)
     {
+        gasInTank = 0;
         gasInTank = gasInTank + amount;
     }
 
@@ -49,6 +50,15 @@ public class Car
     public String getModel()
     {
         return model;
+    }
+
+    /**
+      Gets the brand of this car.
+      @return the brand
+    */
+    public String getBrand()
+    {
+        return brand;
     }
 
     /**
