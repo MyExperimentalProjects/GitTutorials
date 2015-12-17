@@ -41,7 +41,7 @@ public class Car
       @param whether car has an AC
     */
    
-    public boolean setHasAC(boolean hasAC)
+    public void setHasAC(boolean hasAC)
     {
         this.hasAC = hasAC;
     }
