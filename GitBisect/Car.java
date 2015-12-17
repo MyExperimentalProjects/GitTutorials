@@ -6,18 +6,20 @@ public class Car
     private double milesDriven;
     private double gasInTank;
     private double milesPerGallon;
+    private String brand;
     private String model;
    
 
     /**
        Constructs a car with a given fuel efficiency.
     */
-    public Car(double mpg, String mdl)
+    public Car(double milesPerGallon, String brand, String model)
     {
-        milesDriven = 0;
-        gasInTank = 0;
-        milesPerGallon = mpg;
-        model = mdl;
+        this.milesDriven = 0;
+        this.gasInTank = 0;
+        this.milesPerGallon = milesPerGallon;
+        this.brand = brand;
+        this.model = model;
     }
 
   
